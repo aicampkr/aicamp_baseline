@@ -4,7 +4,7 @@
 # Task
 - 이미지에서 상의, 하의, 원피스, 아우터의 바운딩 박스를 검출하는 Task
 
-<img src="example.png"  width="600" height="800">
+<img src="example.png"  width="500" height="666">
 
 # 규정
 ### 데이터
@@ -12,14 +12,14 @@
 - 제출용으로 제공된 test 이미지는 어떠한 형태로도 학습 불가
 - 제공된 train, valid set은 예시 구분으로 개인이 구분을 변경하여 학습 가능
 ### 모델
-- 논문이 출판된 official pre-trained backbone 사용 가능
+- 논문이 출판된 official pre-trained model 사용 가능
 - 예제 코드로 EfficientDet 모델 학습 과정이 제공됨 (아래 참조)
 
 ### 평가
 - MS COCO 방식과 같은 MAP@[0.50:0.95] 를 평가 metric으로 사용
 - json 형식의 결과 파일을 대회 웹페이지에 제출하여 평가
-- 제출된 결과를 Test set의 "일부"로 평가하여 Public Leaderboard에 노출
-- dead line 0시에 Test set 전부로 평가한 Private Learderboard 공개
+- 제출된 결과를 Test set의 `일부`로 평가하여 Public Leaderboard에 노출
+- dead line 0시에 Test set `전부`로 평가한 Private Learderboard 공개
 - Private Learderboard 순위로 수상
 - 제출된 학습 코드로 (데이터 split 변경시 데이터 링크 제출) 결과가 재현되지 않을 시 수상이 취소될 수 있음
 
