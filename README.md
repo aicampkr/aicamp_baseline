@@ -20,8 +20,8 @@
 - MS COCO 방식과 같은 MAP@[0.50:0.95] 를 평가 metric으로 사용
 - json 형식의 결과 파일을 대회 웹페이지에 제출하여 평가
 - 제출된 결과를 Test set의 `일부`로 평가하여 Public Leaderboard에 노출
-- dead line 0시에 Test set `전부`로 평가한 Private Learderboard 공개
-- Private Learderboard 순위로 수상
+- Dead line 0시에 Test set `전부`로 평가한 Private Leaderboard 공개
+- Private Learderboard 순위로 수상 팀 결정
 - 제출된 학습 코드로 (데이터 split 변경시 데이터 링크 제출) 결과가 재현되지 않을 시 수상이 취소될 수 있음
 
 ## Dataset
