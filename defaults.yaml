@@ -49,7 +49,7 @@ remode: pixel
 reprob: 0.0
 resume: ''
 root: ''
-save_images: true
+save_images: false
 sched: cosine
 seed: 0
 smoothing: null
