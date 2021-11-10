@@ -12,7 +12,8 @@
 - 제출용으로 제공된 test 이미지는 어떠한 형태로도 학습 불가
 - 제공된 train, valid set은 예시 구분으로 개인이 구분을 변경하여 학습 가능
 ### 모델
-- 논문이 출판된 official pre-trained model 사용 가능
+- 자유롭게 사용 가능
+    - 단, pre-trained 모델은 논문이 출판된 official 모델만 사용 가능
 - 예제 코드로 EfficientDet 모델 학습 과정이 제공됨 (아래 참조)
 
 ### 평가
