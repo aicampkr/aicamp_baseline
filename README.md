@@ -31,6 +31,7 @@
     - Fashion2021 폴더에서 마우스 우버튼을 눌러 자신의 google drive에 바로가기 추가 후 사용
 ## Train & Test
 - [colab example](https://colab.research.google.com/drive/1aWAhs6xxHeSe4ZgPyXABk9U_w6G6-oBL?usp=sharing)
+    - [colab 런타임 연결 끊김 방지](https://teddylee777.github.io/colab/google-colab-런타임-연결끊김방지)
 - colab이 아닌 터미널 사용시 Repository를 clone하여 설치(`pip install .`)한 뒤 `train.py`, `validate.py` 를 사용
 
 ## References
