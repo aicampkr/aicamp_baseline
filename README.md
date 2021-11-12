@@ -11,6 +11,7 @@
 - 외부 데이터 학습 불가
 - 제출용으로 제공된 test 이미지는 어떠한 형태로도 학습 불가
 - 제공된 train, valid set은 예시 구분으로 개인이 구분을 변경하여 학습 가능
+
 ### 모델
 - 자유롭게 사용 가능
     - 단, pre-trained 모델은 논문이 출판된 official 모델만 사용 가능
@@ -18,11 +19,12 @@
 
 ### 평가
 - MS COCO 방식과 같은 MAP@[0.50:0.95] 를 평가 metric으로 사용
-- json 형식의 결과 파일을 대회 웹페이지에 제출하여 평가
-- 제출된 결과를 Test set의 `일부`로 평가하여 Public Leaderboard에 노출
-- Dead line 0시에 Test set `전부`로 평가한 Private Leaderboard 공개
-- Private Learderboard 순위로 수상 팀 결정
-- 제출된 학습 코드로 (데이터 split 변경시 데이터 링크 제출) 결과가 재현되지 않을 시 수상이 취소될 수 있음
+- json 형식의 결과 파일을 메일로 제출하여 평가 daily update (서강대 황문기 교수: mkhwang@sogang.ac.kr, 010-7685-3889)
+    - 대회 기간 내에는 Test set의 `일부`로 평가
+    - 대회 마감이 되면 Test set `전부`로 평가
+    - 최종 순위로 수상 팀 결정
+- 최종 제출에는 학습 코드도 포함(데이터 split 변경시 데이터 링크 제출)
+    - 결과가 재현되지 않을 시 수상이 취소될 수 있음
 
 ## Dataset
 - [google drive](https://drive.google.com/drive/folders/16_P1QWnChrGbRG1FViG-nHYESMcyH839?usp=sharing)
