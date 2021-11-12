@@ -18,7 +18,7 @@
 - 예제 코드로 EfficientDet 모델 학습 과정이 제공됨 (아래 참조)
 
 ### 평가
-- MS COCO 방식과 같은 MAP@[0.50:0.95] 를 평가 metric으로 사용
+- MS COCO 방식과 같은 mAP@[0.50:0.95] 를 평가 metric으로 사용
 - json 형식의 결과 파일을 메일로 제출하여 평가 daily update (서강대 황문기 교수: mkhwang@sogang.ac.kr, 010-7685-3889)
     - 대회 기간 내에는 Test set `일부`로 평가
     - 대회 마감 후 Test set `전부`로 평가한 최종 순위 공개
