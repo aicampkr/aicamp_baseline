@@ -3,8 +3,8 @@
 
 # Task
 - 이미지에서 상의, 하의, 원피스, 아우터의 바운딩 박스를 검출하는 Task
-
 <img src="example.png"  width="500" height="666">
+- [발표자료](https://drive.google.com/file/d/1eAmPKvt1UhzNP7BAm8fy61UtkafdJHBL/view?usp=sharing)
 
 # 규정
 ### 데이터
